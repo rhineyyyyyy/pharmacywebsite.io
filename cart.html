@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Products - Pharmacy Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body style="background: radial-gradient(#fff,#f5f5dc);">
+
+  <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo (2).png" width="160px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                </ul>
+            </nav>
+            <img src="images/bag.png" width="30px" height="30px">
+            <img src="images/icons8-menu-24.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/Biogesic-removebg-preview.png">
+                    <div>
+                        <p>Pharmacy</p>
+                        <small> Price:&#8369;1000.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>&#8369;1000.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/tempra_photo_01-removebg-preview.png">
+                    <div>
+                        <p>Pharmacy</p>
+                        <small> Price:&#8369;175.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="2"></td>
+            <td>&#8369;350.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/robitussin.png">
+                    <div>
+                        <p>Pharmacy</p>
+                        <small> Price:&#8369;300.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="2"></td>
+            <td>&#8369;600.00</td>
+        </tr>
+        <tr>
+    </table>
+
+        <div class="total-price">
+        
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>&#8369;1,950.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>&#8369;50.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>&#8369;2000.00</td>
+                </tr>
+            </table>
+        </div>
+        
+        </div>
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download app for android and ios mobile phone</p>
+                <div class="app-logo">
+                    <a href="https://play.google.com/"> <img src="images/app logo.png"></a>
+                    <a href="https://www.apple.com/"><img src="images/store logo.png"></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+               <img src="images/logaw.png">
+                <p>Our purpose is to make you healthy.</p>
+        </div>
+        <div class="footer-col-3">
+            <h3>Useful links</h3>
+            <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+            </ul>
+        </div>
+        <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+                <p><a href="https://www.facebook.com/gorg.cyra">Facebook</a></p>
+                <p><a href="https://www.instagram.com/cyraaa_d/">Instagram</a></p>
+                <p><a href="https://www.youtube.com/results?search_query=blackpink">Youtube</a></p>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2022-Pharmacy Website</p>
+</div>
+ <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if( MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+        else
+            {
+                MenuItems.style.maxHeight = "0px"
+            }
+    }
+</script>
+
+
+  </body>
+  </html>
